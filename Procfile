@@ -1,1 +1,1 @@
-web: gunicorn src.vuetodo.wsgi
+web: gunicorn src.vuetodo.wsgi --pythonpath app --log-file -
