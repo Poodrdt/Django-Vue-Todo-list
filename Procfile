@@ -1,1 +1,1 @@
-web: gunicorn src.vuetodo.wsgi
+web: cd src/ && gunicorn vuetodo.wsgi
