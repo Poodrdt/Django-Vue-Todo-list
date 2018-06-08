@@ -12,6 +12,8 @@ pytz = "==2018.3"
 whitenoise = "==3.3.1"
 gunicorn = "*"
 django-heroku = "*"
+dj-database-url = "*"
+python-decouple = "*"
 
 [requires]
 python_version = "3.6"
